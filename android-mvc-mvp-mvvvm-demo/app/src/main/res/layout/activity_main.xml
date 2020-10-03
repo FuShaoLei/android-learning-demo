@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20px">
+    <Button
+        android:id="@+id/btn_to_mvc"
+        android:text="MVC"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:layout_marginTop="40px"
+        android:layout_marginBottom="40px"/>
+    <Button
+        android:id="@+id/btn_to_mvp"
+        android:text="MVP"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:layout_marginTop="40px"
+        android:layout_marginBottom="40px"/>
+    <Button
+        android:text="MVVM"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:layout_marginTop="40px"
+        android:layout_marginBottom="40px"/>
+
+
+</LinearLayout>
