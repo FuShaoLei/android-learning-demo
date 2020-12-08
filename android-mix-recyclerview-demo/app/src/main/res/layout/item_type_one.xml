@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="150dp"
+    android:background="#ffffff"
+    android:layout_margin="10dp">
+    <View
+        android:layout_width="1dp"
+        android:layout_height="150dp"
+        android:background="#333"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/tv_desc"
+        android:text="嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/tv_desc"
+        android:id="@+id/iv_cover"
+        android:layout_gravity="bottom"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"
+        android:layout_width="70dp"
+        android:layout_height="70dp"/>
+    <TextView
+        android:layout_below="@id/tv_desc"
+        android:layout_toRightOf="@id/iv_cover"
+        android:id="@+id/tv_title"
+        android:text="有点意思啊"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:background="#f4f4f4"
+        android:layout_gravity="bottom|right"
+        android:layout_width="110dp"
+        android:layout_height="70dp"/>
+
+</RelativeLayout>
